@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Manoliva Emmeci s.r.l
+        </title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    </head> 
+    <body>
+        <header class="header">
+            <button class="arrow left" onclick="cambiaTesto(-1)">&#10094;</button>
+            <h1 id="testo-header">Oltre 3000 disegni</h1>
+            <button class="arrow right" onclick="cambiaTesto(1)">&#10095;</button>
+        </header>
+        <nav>
+            <div class="logo"><img src="ml-logo.png"></div>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="storia.html">Chi siamo</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+                <li><a href="prodotti.html">Prodotti</a></li>
+                <li class="dropdown">
+                    <a >Lingua</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Italiano</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+        </nav>
+        <div class="mainDiv slide-in">
+            <img src="sfondo.png" alt="Hero Image" class="hero-image">
+            <div class="hero-text">
+                <h2 class="text-appear">
+                    Foulard
+                </h2>
+                <h1 class="text-appear" id="changing-text">
+                    Stile e raffinatezza
+                </h1>
+                <div class="timer-bar"></div>
+            </div>
+        </div>
+        <div class="divisor">
+            <h2>
+                Esplora
+            </h2>
+            <h3>
+                Foulard e tessuti
+            </h3>
+        </div> 
+        <div class="container">
+            <div class="ml_description hidden-element">
+                <h1>
+                    SCOPRI
+                </h1>
+                <h2>
+                    Unione di precisione e dedizione
+                </h2>
+                <h3>
+                    Da oltre 75 anni sul mercato italiano ed internazionale i nostri clienti sanno riconoscere nella qualità
+                    MANOLIVA un’eccellenza della manifattura Made in Italy.
+                </h3>
+                <button>
+                   Scopri di più
+                </button>
+            </div>
+
+            <div class="ml_number hidden-element">
+                <h1 class="counter" data-target="3000">
+
+                </h1>
+                <h2>
+                    Disegni e colori
+                </h2>
+            </div>
+        </div>
+        <div class="section">
+            <h1>
+                Realizzazione incentrata su arte e competenze manifatturiere
+            </h1>
+            <h2>
+                Tutti i passaggi, dal posizionamento di ogni quadro sul tavolo da lavoro, al versamento del colore per la
+                stampa, all’utilizzo della racla per la stesura dell’inchiostro vengono eseguiti a mano. Ogni colore viene
+                stampato singolarmente, uno alla volta. Si tratta di un processo laborioso di incastri e continue
+                sovrapposizioni di quadri.
+            </h2>
+            <div class="containerSection">
+                <div class="S-element hidden-element">
+                    <img src="qualita.png" style="height: 100px; width: 100px;"> 
+                    <h1>
+                        Qualità
+                    </h1>
+                    <h3>
+                        I nosti prodotti vengono lavorati sfruttando materie prime pregiate
+                    </h3>
+                </div>
+                <div class="S-element hidden-element">
+                    <img src="precisione.png" style="height: 100px; width: 100px;">
+                    <h1>
+                        Precisione
+                    </h1>
+                    <h3>
+                        La cura dei nostri prodotti è il nostro punto di forza
+                    </h3>
+                </div>
+                <div class="S-element hidden-element">
+                    <img src="foglia.png" style="height: 100px; width: 100px;">
+                    <h1>
+                        Adattamento
+                    </h1>
+                    <h3>
+                        I tessuti MANOLIVA garantiscono adattamento ad ogni tipologia di cute
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="col">
+                <h3>Azienda</h3>
+                <a href="storia.html">Chi siamo</a>
+                <a href="contatti.html">Contatti</a>
+                <a href="#">Lavora con noi</a>
+                </div>
+
+                <div class="col">
+                <h3>Supporto</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Assistenza</a>
+                <a href="#">Privacy</a>
+                </div>
+
+                <div class="col">
+                <h3>Social</h3>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                </div>
+            </div>
+            <p class="copy">© Copyright Emmeci S.r.l. P.Iva 05315850965 - R.E.A. Milano 1812311 - Cap.Soc. Euro 10.500,00 I.V.</p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>

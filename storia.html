@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Storia MANOLIVA
+        </title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <button class="arrow left" onclick="cambiaTesto(-1)">&#10094;</button>
+            <h1 id="testo-header">Oltre 3000 disegni</h1>
+            <button class="arrow right" onclick="cambiaTesto(1)">&#10095;</button>
+        </header>
+        <nav>
+            <div class="logo"><img src="ml-logo.png"></div>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="storia.html">Chi siamo</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+                <li><a href="prodotti.html">Prodotti</a></li>
+                <li class="dropdown">
+                    <a >Lingua</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Italiano</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="containerText">
+            <div>
+                <h1>
+                La nostra azienda<br>scopri i tessuti<span style="color: rgb(12, 197, 12)"><i> Manoliva<br>Emmeci</i></span> 
+                </h1>
+                <h3>
+                    Da oltre 75 anni sul mercato italiano ed internazionale i nostri clienti sanno riconoscere nella qualità
+                    MANOLIVA un’eccellenza della manifattura Made in Italy.
+
+                    La nostra collezione comprende oltre 3000 disegni e colori, dall’elegante pois alle stampe floreali, dal
+                    maculato ai motivi geometrici alla cravatteria, al paisley (cachemire), fino alla classica tinta unita. Disegni
+                    con motivi nautici e floreali delle dolomiti dell’Alto Adige (le Stelle alpine, le intense Genziane blù, i fiori di
+                    Cardo, le Campanule, ...) impreziosiscono la nostra collezione.
+                </h3>
+            </div>
+            <img src="tessuto.png" style="height: 450px; width: 450px;">
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="col">
+                <h3>Azienda</h3>
+                <a href="#">Chi siamo</a>
+                <a href="#">Contatti</a>
+                <a href="#">Lavora con noi</a>
+                </div>
+
+                <div class="col">
+                <h3>Supporto</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Assistenza</a>
+                <a href="#">Privacy</a>
+                </div>
+
+                <div class="col">
+                <h3>Social</h3>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                </div>
+            </div>
+            <p class="copy">© Copyright Emmeci S.r.l. P.Iva 05315850965 - R.E.A. Milano 1812311 - Cap.Soc. Euro 10.500,00 I.V.</p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
